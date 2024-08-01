@@ -8,6 +8,27 @@ body {
     padding: 0;
   }
   
+  .history, .share, .weather, .wardrobe {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.history ul, #virtualWardrobe {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history ul li, #virtualWardrobe div {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
   .container {
     max-width: 600px;
     margin: 50px auto;
