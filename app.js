@@ -212,5 +212,3 @@ function setReminder() {
 // Set reminder every 24 hours
 setInterval(setReminder, 24 * 60 * 60 * 1000);
 
-// Initialize virtual wardrobe on page load
-document.addEventListener('DOMContentLoaded', showVirtualWardrobe);
